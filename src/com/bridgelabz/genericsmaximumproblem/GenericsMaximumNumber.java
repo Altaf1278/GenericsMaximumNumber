@@ -19,7 +19,7 @@ public class GenericsMaximumNumber {
 			 
 		 }
 		 public static void main(String[] args) {
-			System.out.println (maximum(5, 6, 1));
+			System.out.println ( "Maximum Float Value is : " +maximum(5.4, 6.9, 1.42));
 		 }
 	}
 
