@@ -22,7 +22,7 @@ public class GenericsMaximumNumber {
 			max = v;
 		}
 
-		
+		  System.out.println("Maximum value: " + max);
 		return max;
 
 		 
@@ -30,7 +30,7 @@ public class GenericsMaximumNumber {
 
 	public static void main(String[] args) {
 
-		System.out.println("Maximum String Value : " + maximum('A', 'K', 'S', 'T', 'G'));
+		System.out.println("Maximum String Value : " + maximum("Ant", "King", "Spider", "Thor", "Yoyo"));
 	}
 
 }
